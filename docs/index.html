@@ -178,13 +178,55 @@ subtitle: M.Sc. in Computer Science
         </div>
 
         <!-- Publications -->
-        <!-- <section id="publications">
+        <section id="publications">
             <center>
                 <h1>Publications</h1>
             </center>
+                <div class="publications-container">
+                    <ol>
+                        <li>
+                            <!-- Publication 1 -->
+                            <div class="publication-entry">
+                                <div class="publication-title">An Empirical Study of the Effectiveness of Using a Replay Buffer on Mode Discovery in GFlowNets. <a href="https://arxiv.org/pdf/2307.07674" target="_blank">[PDF]</a></div>
+                                <div class="publication-authors">
+                                    Nikhil Vemgal, Elaine Lau, Doina Precup
+                                </div>
+                                <div class="publication-conference">
+                                    ICML Workshop, 2023
+                                </div>
+                                <details class="publication-abstract">
+                                    <summary>Abstract</summary>
+                                    <p>
+                                        Reinforcement Learning (RL) algorithms aim to learn an optimal policy by iteratively sampling actions to learn how to maximize the total expected return, R(x). GFlowNets are a special class of algorithms designed to generate diverse candidates, x, from a discrete set, by learning a policy that approximates the proportional sampling of R(x). GFlowNets exhibit improved mode discovery compared to conventional RL algorithms, which is very useful for applications such as drug discovery and combinatorial search. However, since GFlowNets are a relatively recent class of algorithms, many techniques which are useful in RL have not yet been associated with them. In this paper, we study the utilization of a replay buffer for GFlowNets. We explore empirically various replay buffer sampling techniques and assess the impact on the speed of mode discovery and the quality of the modes discovered. Our experimental results in the Hypergrid toy domain and a molecule synthesis environment demonstrate significant improvements in mode discovery when training with a replay buffer, compared to training only with trajectories generated on-policy.
+                                    </p>
+                                </details>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <!-- Publication 2 -->
+                            <div class="publication-entry">
+                                <div class="publication-title">DGFN: Double Generative Flow Networks. <a href="https://arxiv.org/pdf/2310.19685" target="_blank">[PDF]</a></div>
+                                <div class="publication-authors">
+                                    Elaine Lau, Nikhil Vemgal, Doina Precup
+                                </div>
+                                <div class="publication-conference">
+                                    NeurIPS Workshop, 2023
+                                </div>
+                                <details class="publication-abstract">
+                                    <summary>Abstract</summary>
+                                    <p>
+                                        Deep learning is emerging as an effective tool in drug discovery, with potential applications in both predictive and generative models. Generative Flow Networks (GFlowNets/GFNs) are a recently introduced method recognized for the ability to generate diverse candidates, in particular in small molecule generation tasks. In this work, we introduce double GFlowNets (DGFNs). Drawing inspiration from reinforcement learning and Double Deep Q-Learning, we introduce a target network used to sample trajectories, while updating the main network with these sampled trajectories. Empirical results confirm that DGFNs effectively enhance exploration in sparse reward domains and high-dimensional state spaces, both challenging aspects of de-novo design in drug discovery.
+                                    </p>
+                                </details>
+                            </div>
+                        </li>
+                    </ol>
+                
+                </div>
         </section>
 
-        <md-block>
+        <!-- <md-block>
             # Markdown Heading
             **Something in BOLD**
             ~~strikthrough~~
@@ -202,9 +244,9 @@ subtitle: M.Sc. in Computer Science
             <p>Interesting paragraph text about penguins</p>
             <p>Another interesting bit of paragraph text about penguins</p>
         </div>
-        </details>
+        </details> -->
 
-    </section> -->
+    </section>
     
 
 </body>
