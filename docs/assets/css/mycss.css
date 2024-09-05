@@ -1,0 +1,135 @@
+ /* For "details" tag */
+        /* Hide the default marker */
+        /* details summary {
+            list-style: none;
+            cursor: pointer;
+            position: relative;
+        } */
+        
+        /* Adding custom symbols */
+        /* details summary::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            font-size: 18px;
+            color: #000;
+        } */
+        
+        /* Change symbol when details is open */
+        /* details[open] summary::before {
+            content: 'Read less';
+        } */
+        
+        /* Optionally styling the details content */
+        /* details {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 300px;
+        } */
+        
+        /* details[open] {
+            background-color: #f9f9f9;
+        } */
+
+        /* For "table" */
+        /* table {
+            width: 100%;
+            border-collapse: collapse; 
+        } */
+
+        /* td {
+            padding: 10px;
+            vertical-align: top;
+            border: none; 
+        } */
+
+        /* Style for the company logo */
+        /* .company-logo {
+            width: 100px;
+            height: auto;
+        } */
+
+        /* Styling the collapsible section */
+        details summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #009999 ;
+        }
+
+        /* Optional: styling the details block */
+        /* details {
+            margin-top: 5px;
+        } */
+
+        /* Container for each job entry */
+        .job-container {
+            display: flex;
+            align-items: flex-start;
+            /* border: 1px solid #ddd; */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        /* Company logo */
+        .company-logo {
+            flex: 0 0 120px;
+            width: 120px;
+            height: 100px;
+            margin-right: 20px;
+            object-fit: contain;
+        }
+
+        /* Job details section */
+        .job-details {
+            flex: 1;
+        }
+
+        /* Job title and duration section */
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .job-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .job-subtitle {
+            font-size: 1em;
+            font-weight: normal;
+            color: #555;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .job-location {
+            font-size: 1em;
+            font-weight: normal;
+            color: #666;
+            margin-top: 5px;
+            font-style: oblique;
+        }
+
+        .job-duration {
+            font-size: 1em;
+            color: #555555;
+            font-style: italic;
+        }
+
+        /* High-level details */
+        .job-info {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .job-info li {
+            margin-bottom: 5px;
+        }
