@@ -17,6 +17,9 @@ subtitle: M.Sc. in Computer Science
     <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <link rel="stylesheet" href="assets/css/mycss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="{{ "assets/img/favicon.png" | prepend: site.baseurl }}" >
+    <!-- <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png?"> -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/imag/favicon.ico"> -->
 </head>
 
 <body>
@@ -233,56 +236,6 @@ subtitle: M.Sc. in Computer Science
         <section id="education">
             <center><h1>Education</h1></center>
 
-            <!-- <div class="education-container">
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front">
-                            <img src="/assets/img/PES_Logo.png" alt="University Logo" class="university-logo">
-                            <div class="program-info">
-                                <h2>McGill University</h2>
-                                <h3 class="program-name">Master of Science in Computer Science</h3>
-                                <div class="program-duration">
-                                    <i class="fa fa-calendar"></i> 
-                                    <span>September 2021 - August 2023</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-back">
-                            <h3>Courses</h3>
-                            <ul>
-                                <li>Advanced Machine Learning</li>
-                                <li>Deep Learning for Computer Vision</li>
-                                <li>Natural Language Processing</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front">
-                            <img src="/assets/img/PES_Logo.png" alt="University Logo" class="university-logo">
-                            <div class="program-info">
-                                <h2>McGill University</h2>
-                                <h3 class="program-name">Master of Science in Computer Science</h3>
-                                <div class="program-duration">
-                                    <i class="fa fa-calendar"></i> 
-                                    <span>September 2021 - August 2023</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-back">
-                            <h3>Courses</h3>
-                            <ul>
-                                <li>Advanced Machine Learning</li>
-                                <li>Deep Learning for Computer Vision</li>
-                                <li>Natural Language Processing</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
             <div class="education-container">
                 <div class="card">
                     <div class="card-inner">
@@ -349,8 +302,76 @@ subtitle: M.Sc. in Computer Science
                     });
                 });
             </script>
+        </section>
 
-        <!-- <md-block>
+        <!-- Projects -->
+        <section id="projects">
+            <center><h1>Projects</h1></center>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h2 class="project-name">Training RL agents on Mujoco Hopper</h2>
+                        <h4 class="project-subtitle">Course Project, Reinforcement Learning, McGill University</h4>
+                        <ul class="project-details">
+                            <li>Explored a variety of policy gradient algorithms, including Proximal Policy Optimization (PPO), basic actor-critic, Trust Region Policy Optimization (TRPO), and Soft Actor-Critic models (SAC), to tackle the Hopper task. </li>
+                            <li>Investigated the trade-off between model capacity and sample efficiency to inform algorithm selection.</li>
+                        </ul>
+                        <p class="project-duration"><i class="fa fa-calendar"></i> March 2022 - April 2022</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h2 class="project-name">Vision Transformer (ViT)</h2>
+                        <h4 class="project-subtitle">Course Project, Representation Learning, University of Montreal </h4>
+                        <ul class="project-details">
+                            <li>Built an image classifier using ViT and conducted experiments on Layer Normalization with both Pre-LN and Post-LN configurations.</li>
+                        </ul>
+                        <p class="project-duration"><i class="fa fa-calendar"></i> March 2022 - April 2022</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h2 class="project-name">Bachelor’s degree project</h2>
+                        <h4 class="project-subtitle">PES University</h4>
+                        <ul class="project-details">
+                            <li>Conducted an in-depth survey on Variational Autoencoders (VAE) and Generative Adversarial Networks (GAN), analyzing mathematical aspects, training dynamics, and real-world applications.</li>
+                            <li>Explored challenges, including mode collapse in GANs and posterior collapse in VAEs.</li>
+                        </ul>
+                        <p class="project-duration"><i class="fa fa-calendar"></i> January 2018 - May 2018</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h2 class="project-name">Diabetic Retinopathy Detection</h2>
+                        <h4 class="project-subtitle">Course Project, Computer Vision, PES University</h4>
+                        <ul class="project-details">
+                            <li>Developed an algorithm for diabetic retinopathy severity detection based on microaneurysm count, utilizing various morphological operations for blood vessels and microaneurysm extraction from fundus eye images.</li>
+                        </ul>
+                        <p class="project-duration"><i class="fa fa-calendar"></i> September 2017 - December 2017</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h2 class="project-name">News Recommendation System</h2>
+                        <h4 class="project-subtitle">Course Project, Algorithms for Intelligent Web, PES University</h4>
+                        <ul class="project-details">
+                            <li>Developed a Node.js web application using user-user collaborative filtering-based algorithm with MongoDB backend.</li>
+                        </ul>
+                        <p class="project-duration"><i class="fa fa-calendar"></i> March 2017 - May 2017</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+    <!-- <md-block>
             # Markdown Heading
             **Something in BOLD**
             ~~strikthrough~~
@@ -369,8 +390,6 @@ subtitle: M.Sc. in Computer Science
             <p>Another interesting bit of paragraph text about penguins</p>
         </div>
         </details> -->
-
-    </section>
     
 
 </body>
