@@ -5,6 +5,8 @@
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
 
+# TO start the server - "bundle exec jekyll serve"
+
 ############################
 # --- Required options --- #
 ############################
@@ -25,6 +27,7 @@ navbar-links:
   Publications: "/#publications"
   Education: "/#education"
   Projects: "/#projects"
+  CV: "/resume/NikhilVemgal.pdf"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"

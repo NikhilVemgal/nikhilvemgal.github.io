@@ -361,10 +361,10 @@ details summary {
 /* Projects Section */
 .projects-container {
     display: flex;
-    flex-direction: column;  /* Align projects one below the other */
+    flex-direction: column;
     gap: 20px;
     margin: 20px auto;
-    max-width: 800px;  /* Limit the width for better readability */
+    max-width: 800px;  
     padding: 20px;
 }
 
@@ -372,11 +372,10 @@ details summary {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* padding: 20px; */
-    padding-top: 10px;   /* Adjust top padding */
-    padding-bottom: -10px;   /* Adjust bottom padding */
-    padding-left: 25px;   /* Adjust left padding */
-    padding-right: 30px;  /* Adjust right padding */
+    padding-top: 10px;
+    padding-bottom: -10px; 
+    padding-left: 25px; 
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -412,4 +411,10 @@ details summary {
 .project-duration i {
     margin-right: 8px;
     color: #777;
+}
+
+/* Resume Download */
+.resumedownload {
+    color: #007BFF;
+    font-size: 0.8em;
 }
